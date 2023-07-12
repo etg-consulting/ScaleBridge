@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETG.ScaleBridge", "ETG.ScaleBridge\ETG.ScaleBridge.csproj", "{CB1407F0-55D5-48A3-AAF7-BF28B6700800}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ETG.ScaleBridge.Setup", "ETG.ScaleBridge.Setup\ETG.ScaleBridge.Setup.vdproj", "{069D97F6-DBCC-4B7F-971C-775A258A5B7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HidSharp", "HidSharp\HidSharp.csproj", "{B9023055-CAE1-4412-BFAA-BF0D813867F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1407F0-55D5-48A3-AAF7-BF28B6700800}.Debug|x64.ActiveCfg = Debug|x64
+		{CB1407F0-55D5-48A3-AAF7-BF28B6700800}.Debug|x64.Build.0 = Debug|x64
+		{CB1407F0-55D5-48A3-AAF7-BF28B6700800}.Release|x64.ActiveCfg = Release|x64
+		{CB1407F0-55D5-48A3-AAF7-BF28B6700800}.Release|x64.Build.0 = Release|x64
+		{069D97F6-DBCC-4B7F-971C-775A258A5B7E}.Debug|x64.ActiveCfg = Debug
+		{069D97F6-DBCC-4B7F-971C-775A258A5B7E}.Release|x64.ActiveCfg = Release
+		{069D97F6-DBCC-4B7F-971C-775A258A5B7E}.Release|x64.Build.0 = Release
+		{B9023055-CAE1-4412-BFAA-BF0D813867F7}.Debug|x64.ActiveCfg = Debug|x64
+		{B9023055-CAE1-4412-BFAA-BF0D813867F7}.Debug|x64.Build.0 = Debug|x64
+		{B9023055-CAE1-4412-BFAA-BF0D813867F7}.Release|x64.ActiveCfg = Release|x64
+		{B9023055-CAE1-4412-BFAA-BF0D813867F7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D87A2EF1-8342-4FB6-B0BD-6BB08AD3CB03}
+	EndGlobalSection
+EndGlobal

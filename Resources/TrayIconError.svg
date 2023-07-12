@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="App-Icon" serif:id="App Icon">
+        <path d="M47.502,8C49.939,8 52.162,10.408 52.461,13.373L55.95,47.94C56.399,52.388 53.794,56 50.138,56L13.862,56C10.206,56 7.601,52.388 8.05,47.94L11.539,13.373C11.838,10.408 14.061,8 16.498,8L47.502,8Z" style="fill:rgb(255,38,0);"/>
+        <g transform="matrix(0.851155,0,0,0.925809,4.32278,3.26438)">
+            <ellipse cx="32.517" cy="31.038" rx="14.098" ry="12.962" style="fill:none;stroke:white;stroke-width:6.75px;"/>
+        </g>
+        <g transform="matrix(0.707107,0.707107,-0.471293,0.471293,33.906,-15.132)">
+            <path d="M32,40.025C31.908,39.809 32,52.025 32,52.025" style="fill:none;stroke:white;stroke-width:7.06px;"/>
+        </g>
+    </g>
+</svg>

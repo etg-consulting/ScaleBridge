@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="App-Icon" serif:id="App Icon">
+        <g transform="matrix(1.10423,0,0,1.34335,-3.33538,-20.1041)">
+            <path d="M32,56.653L32,20.921L46.038,20.921C48.246,20.921 50.258,22.713 50.53,24.921L53.689,50.653C54.096,53.964 51.737,56.653 48.426,56.653L32,56.653Z" style="fill:rgb(21,169,198);"/>
+        </g>
+        <g transform="matrix(-1.10423,0,0,1.34335,67.3354,-20.1041)">
+            <path d="M32,56.653L32,20.921L46.038,20.921C48.246,20.921 50.258,22.713 50.53,24.921L53.689,50.653C54.096,53.964 51.737,56.653 48.426,56.653L32,56.653Z" style="fill:rgb(79,217,224);"/>
+        </g>
+        <g transform="matrix(1.10254,0,0,1.10254,-2.48593,-12.2946)">
+            <path d="M31.279,51.059C37.29,51.059 42.163,46.186 42.163,40.175C42.163,34.164 37.29,29.291 31.279,29.291L31.279,51.059Z" style="fill:rgb(213,233,255);"/>
+        </g>
+        <g transform="matrix(1.10254,0,0,1.10254,-2.48593,-12.2946)">
+            <path d="M31.279,29.291C25.268,29.291 20.395,34.164 20.395,40.175C20.395,46.186 25.268,51.059 31.279,51.059L31.279,29.291Z" style="fill:rgb(236,246,255);"/>
+        </g>
+        <g transform="matrix(0.707107,0.707107,-0.35347,0.35347,27.7762,-9.00224)">
+            <path d="M32,40.025C31.908,39.809 32,52.025 32,52.025" style="fill:rgb(54,86,156);stroke:rgb(54,86,156);stroke-width:5.06px;"/>
+        </g>
+    </g>
+</svg>
