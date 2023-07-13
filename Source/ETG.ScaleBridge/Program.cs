@@ -38,6 +38,7 @@ internal static class Program
             {
                 app.Run(async (context) => {
                     context.Response.ContentType = "application/json";
+                    context.Response.Headers.AccessControlAllowOrigin = "*";
                     context.Response.StatusCode = (int)HttpStatusCode.OK;
                     await context.Response.WriteAsync($"{{ \"Status\":\"{Scale.Status}\",\"Weight\":\"{Scale.Weight}\",\"Unit\":\"{Scale.Unit}\" }}");
                 });
