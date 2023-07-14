@@ -13,6 +13,12 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_327CE62EBCC34873BBCB7FC42EA86D1A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -53,11 +59,11 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\ETG.ScaleBridge.Setup.msi"
+        "OutputFilename" = "8:..\\..\\Release\\Setup\\ETG.ScaleBridge.Setup.x64.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -65,18 +71,13 @@
         "InstallerBootstrapper" = "3:2"
             "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
             {
-            "Enabled" = "11:TRUE"
+            "Enabled" = "11:FALSE"
             "PromptEnabled" = "11:TRUE"
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
-                    }
                 }
             }
         }
@@ -110,6 +111,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_327CE62EBCC34873BBCB7FC42EA86D1A"
+            {
+            "SourcePath" = "8:..\\..\\Release\\Publish\\ScaleBridge.exe"
+            "TargetName" = "8:ScaleBridge.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_4FC3FAB50CB347E9BAC74E8B37669F70"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -167,7 +188,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Scale Bridge"
         "ProductCode" = "8:{BE9F76B9-8480-4DF2-8D43-7A92EB1EEE98}"
-        "PackageCode" = "8:{CCBA4109-FCE9-4BE6-BEC9-6A4B0F9FE6B3}"
+        "PackageCode" = "8:{A83215FE-2207-4BD9-9EAC-9555991C6579}"
         "UpgradeCode" = "8:{229B3944-1719-4132-BEFF-DAE2E567F48E}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -184,7 +205,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:USB HID Scale to HTTP bridge for web browser integration"
         "ARPURLINFOABOUT" = "8:http://www.etg-it.com"
-        "ARPPRODUCTICON" = "8:_C32AF4A491374046A6431572A1A59324"
+        "ARPPRODUCTICON" = "8:_327CE62EBCC34873BBCB7FC42EA86D1A"
         "ARPIconIndex" = "3:32512"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -287,7 +308,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CC18448AEC1B4341A542F38F7B78EE53"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_96F8999738E240759EF6243F034D691A"
             {
             "Name" = "8:Scale Bridge"
             "Arguments" = "8:"
@@ -295,10 +316,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C32AF4A491374046A6431572A1A59324"
+            "Target" = "8:_327CE62EBCC34873BBCB7FC42EA86D1A"
             "Folder" = "8:_610FBE6ADB7547048490847A6DC40ADE"
             "WorkingFolder" = "8:_4FC3FAB50CB347E9BAC74E8B37669F70"
-            "Icon" = "8:_C32AF4A491374046A6431572A1A59324"
+            "Icon" = "8:_327CE62EBCC34873BBCB7FC42EA86D1A"
             "Feature" = "8:"
             }
         }
@@ -700,34 +721,6 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C32AF4A491374046A6431572A1A59324"
-            {
-            "SourcePath" = "8:..\\ETG.ScaleBridge\\obj\\x64\\Release\\net6.0-windows10.0.18362.0\\apphost.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_4FC3FAB50CB347E9BAC74E8B37669F70"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|x64"
-            "OutputGroupCanonicalName" = "8:PublishItems"
-            "OutputProjectGuid" = "8:{CB1407F0-55D5-48A3-AAF7-BF28B6700800}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
         }
     }
 }

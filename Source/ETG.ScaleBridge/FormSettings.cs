@@ -1,22 +1,19 @@
-using System.Windows.Forms;
-using Windows.Media.Devices;
-
 namespace ETG.ScaleBridge;
 public partial class FormSettings : Form
 {
     public FormSettings()
     {
         InitializeComponent();
-        ETG.ScaleBridge.Scale.OnDeviceListChanged += Scale_OnDeviceListChanged;
-        ETG.ScaleBridge.Scale.OnDeviceRead += Scale_OnDeviceRead;
+        ScaleBridge.Scale.OnDeviceListChanged += Scale_OnDeviceListChanged;
+        ScaleBridge.Scale.OnDeviceRead += Scale_OnDeviceRead;
     }
 
     private void FormSettings_Load(object sender, EventArgs e)
     {
-        txtDevice.Text = ETG.ScaleBridge.Scale.CurrentDevice;
-        txtStaus.Text = ETG.ScaleBridge.Scale.Status;
-        txtWeight.Text = ETG.ScaleBridge.Scale.Weight.ToString();
-        txtUnit.Text = ETG.ScaleBridge.Scale.Unit;
+        txtDevice.Text = ScaleBridge.Scale.CurrentDevice;
+        txtStaus.Text = ScaleBridge.Scale.Status;
+        txtWeight.Text = ScaleBridge.Scale.Weight.ToString();
+        txtUnit.Text = ScaleBridge.Scale.Unit;
     }
 
 
@@ -26,9 +23,9 @@ public partial class FormSettings : Form
         {
             Invoke(new MethodInvoker(delegate ()
             {
-                txtStaus.Text = ETG.ScaleBridge.Scale.Status;
-                txtWeight.Text = ETG.ScaleBridge.Scale.Weight.ToString();
-                txtUnit.Text = ETG.ScaleBridge.Scale.Unit;
+                txtStaus.Text = ScaleBridge.Scale.Status;
+                txtWeight.Text = ScaleBridge.Scale.Weight.ToString();
+                txtUnit.Text = ScaleBridge.Scale.Unit;
             }));
         }
     }
@@ -38,10 +35,10 @@ public partial class FormSettings : Form
         {
             Invoke(new MethodInvoker(delegate ()
             {
-                txtDevice.Text = ETG.ScaleBridge.Scale.CurrentDevice;
-                txtStaus.Text = ETG.ScaleBridge.Scale.Status;
-                txtWeight.Text = ETG.ScaleBridge.Scale.Weight.ToString();
-                txtUnit.Text = ETG.ScaleBridge.Scale.Unit;
+                txtDevice.Text = ScaleBridge.Scale.CurrentDevice;
+                txtStaus.Text = ScaleBridge.Scale.Status;
+                txtWeight.Text = ScaleBridge.Scale.Weight.ToString();
+                txtUnit.Text = ScaleBridge.Scale.Unit;
             }));
         }
     }
